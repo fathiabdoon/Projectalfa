@@ -1,1 +1,60 @@
-Hello {{ name }}!
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign in &middot; Twitter Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="{{asset('bundles/loginlogin/css/bootstrap.css')}}" rel="stylesheet">
+    
+    {%block stylesheets %}
+    {%endblock%}
+    
+    <link href="{{asset('bundles/loginlogin/css/bootstrap-responsive.css')}}" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="{{asset('bundles/loginlogin/js/html5shiv.js')}}"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('bundles/loginlogin/ico/apple-touch-icon-144-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('bundles/loginlogin/ico/apple-touch-icon-114-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('bundles/loginlogin/ico/apple-touch-icon-72-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{asset('bundles/loginlogin/ico/apple-touch-icon-57-precomposed.png')}}">
+    <link rel="shortcut icon" href="{{asset('bundles/loginlogin/ico/favicon.png')}}">
+    
+
+  </head>
+
+  <body>
+
+    {%block container%}
+    {%endblock%}
+    
+ 
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{asset('bundles/loginlogin/js/jquery.js')}}"></script>
+    <script src="{{asset('bundles/loginlogin/js/bootstrap-transition.js')}}"></script>
+    <script src="{{asset('bundles/loginlogin/js/bootstrap-alert.js')}}"></script>
+    <script src="{{asset('bundles/loginlogin/js/bootstrap-modal.js')}}"></script>
+    <script src="{{asset('bundles/loginlogin/js/bootstrap-dropdown.js')}}"></script>
+    <script src="{{asset('bundles/loginlogin/js/bootstrap-scrollspy.js')}}"></script>
+    <script src="{{asset('bundles/loginlogin/js/bootstrap-tab.js')}}"></script>
+    <script src="{{asset('bundles/loginlogin/js/bootstrap-tooltip.js')}}"></script>
+    <script src="{{asset('bundles/loginlogin/js/bootstrap-popover.js')}}"></script>
+    <script src="{{asset('bundles/loginlogin/js/bootstrap-button.js')}}"></script>
+    <script src="{{asset('bundles/loginlogin/js/bootstrap-collapse.js')}}"></script>
+    <script src="{{asset('bundles/loginlogin/js/bootstrap-carousel.js')}}"></script>
+    <script src="{{asset('bundles/loginlogin/js/bootstrap-typeahead.js')}}"></script>
+
+    
+    {%block javascript %}
+    {%endblock%}
+    
+  </body>
+</html>
